@@ -1,0 +1,98 @@
+.member-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e293b;
+  padding: 12px 20px;
+  color: white;
+}
+
+.nav-left h3 {
+  margin: 0;
+  color: #38bdf8;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
+.logout-btn {
+  background: #ef4444;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.logout-btn:hover {
+  background: #dc2626;
+}
+.member-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background: #1e293b;
+    color: white;
+}
+
+.nav-left h3 {
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 18px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.wishlist-icon {
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.wishlist-icon:hover {
+    transform: scale(1.2);
+}
+
+.logout-btn {
+    background: #ef4444;
+    border: none;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background: #dc2626;
+}

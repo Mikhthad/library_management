@@ -1,0 +1,90 @@
+.fines-content {
+  padding: 24px;
+  flex: 1;
+  margin-left:260px ;
+}
+
+.card {
+  background: #ffffff;
+  padding: 18px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.card h3 {
+  margin-bottom: 12px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.form-row label {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.form-row input,
+.form-row select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.btn.primary {
+  background: #1976d2;
+  color: #fff;
+}
+
+.btn.success {
+  background: #2e7d32;
+  color: #fff;
+}
+
+.btn.manage {
+  background: #ff9800;
+  color: #fff;
+}
+
+.btn.delete {
+    background: #e53935;
+    color: white;
+    margin-left: 8px;
+}
+
+.btn.delete:hover {
+    background: #c62828;
+}
+
+
+.fines-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.fines-table th,
+.fines-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.fines-table th {
+  background: #f3f5f8;
+}
+
+.receipt-card {
+  background: #f0f9f4;
+  border-left: 5px solid #2e7d32;
+}

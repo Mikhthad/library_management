@@ -1,0 +1,148 @@
+/* Layout */
+.page-with-sidebar {
+  display: flex;
+  min-height: 100vh;
+  background: #f5f7fb;
+}
+
+.content {
+  flex: 1;
+  padding: 25px 30px;
+  margin-left: 260px;
+}
+
+.content h2 {
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+.content h3 {
+  margin: 20px 0 10px;
+  color: #374151;
+}
+
+.content input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.content input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+.content ul {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.content ul li {
+  padding: 10px 12px;
+  border-bottom: 1px solid #e5e7eb;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.content ul li:last-child {
+  border-bottom: none;
+}
+
+.content ul li:hover {
+  background: #f1f5f9;
+}
+
+/* Status text */
+.content p {
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.content p b {
+  color: #111827;
+}
+
+/* Buttons */
+.content button {
+  padding: 10px 16px;
+  margin-right: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+/* Issue Button */
+.content button:first-of-type {
+  background: #2563eb;
+  color: #fff;
+}
+
+.content button:first-of-type:hover {
+  background: #1d4ed8;
+}
+
+/* Return Button */
+.content button:last-of-type {
+  background: #16a34a;
+  color: #fff;
+}
+
+.content button:last-of-type:hover {
+  background: #15803d;
+}
+
+/* Fine Display */
+.content p[style*="red"] {
+  font-weight: 600;
+}
+
+/* Divider */
+hr {
+  border: none;
+  height: 1px;
+  background: #e5e7eb;
+  margin: 20px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .content {
+    padding: 15px;
+  }
+
+  .content input,
+  .content ul {
+    max-width: 100%;
+  }
+}
+
+.return-table th {
+  background: #334155;
+  color: white;
+  padding: 10px;
+}
+
+.return-table td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.return-btn {
+  background: #dc2626;
+}
+
+.return-btn:hover {
+  background: #991b1b;
+}

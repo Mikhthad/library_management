@@ -1,0 +1,79 @@
+.with-navbar {
+    background: #f4f6fb;
+    min-height: 100vh;
+}
+.profile-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+}
+
+.profile-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.profile-subtitle {
+    margin-bottom: 15px;
+    color: #34495e;
+}
+
+.profile-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.btn-save {
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #3498db;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-save:hover {
+    background: #2980b9;
+}
+
+.profile-loading {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+}

@@ -1,0 +1,91 @@
+.with-navbar {
+    min-height: 100vh;
+    background: #f4f6f9;
+}
+
+.borrow-history-page {
+    max-width: 1000px;
+    margin: 80px auto 40px;
+    padding: 20px;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.borrow-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.borrow-table thead {
+    background: #2c3e50;
+    color: white;
+}
+
+.borrow-table th,
+.borrow-table td {
+    padding: 12px 14px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.borrow-table tbody tr {
+    border-bottom: 1px solid #eee;
+}
+
+.borrow-table tbody tr:hover {
+    background: #f8f9fa;
+}
+
+.status {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.status.issued {
+    background: #f1c40f;
+    color: #fff;
+}
+
+.status.returned {
+    background: #27ae60;
+    color: #fff;
+}
+
+.status.overdue {
+    background: #e74c3c;
+    color: #fff;
+}
+
+.fine {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.no-data {
+    padding: 20px;
+    text-align: center;
+    color: #888;
+}
+
+@media (max-width: 768px) {
+    .borrow-table th,
+    .borrow-table td {
+        font-size: 13px;
+        padding: 10px;
+    }
+}

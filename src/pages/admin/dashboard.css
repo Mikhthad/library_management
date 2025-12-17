@@ -1,0 +1,62 @@
+.dashbord-container {
+    margin-left: 260px;
+    padding: 30px;
+    background: #f5f6fa;
+    min-height: 100vh;
+}
+
+.dashbord-container h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #2d3436;
+}
+
+.dashbord-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.cards {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.cards:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.icon {
+    font-size: 36px;
+    margin-bottom: 12px;
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+    display: inline-flex;
+}
+
+.card-title {
+    font-size: 16px;
+    color: #636e72;
+    margin-top: 10px;
+}
+
+.card-value {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2d3436;
+}
+
+.card-blue .icon { background: #0984e3; }
+.card-green .icon { background: #00b894; }
+.card-purple .icon { background: #6c5ce7; }
+.card-red .icon { background: #d63031; }
+.card-orange .icon { background: #e17055; }
+.card-yellow .icon { background: #fdcb6e; }
